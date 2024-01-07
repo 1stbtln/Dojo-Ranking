@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 5rem;
+    margin-left: 40px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+#p1{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+div{
+    width: 70%;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100vh;
+    border-left: 1px solid rgb(196, 86, 13);
+    width: 70%;
+    margin-top: 75px;
+}
+#ekwfl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+button{
+    width: 630px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0);
+    border-style: none;
+    border-radius: 15px;
+    margin-left: 40px;
+    color: white;
+    border: 1px solid rgb(133, 3, 255);
+}
+.div3{
+    position: fixed;
+    height: 100vh;
+    width: 630px;
+    right: 0px;
+    top: 100px;
+    border-radius: 50px;
+    border: 1px solid orangered;
+}
+h2{
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.div3Div1{
+    height: fit-content;
+    margin-left: 80px;
+}
+h3{
+    color: rgb(133, 3, 255);
+}
+#p2{
+    color: white;
+}
+ul{
+    color: rgb(255, 195, 67);
+}
+.div3Div2{
+    margin-left: 80px;
+}
