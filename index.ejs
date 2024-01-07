@@ -1,0 +1,10 @@
+<% if(topStats) { %>
+    <h2>Top Stats of the Leading Player:</h2>
+    <p>Kills: <%= topStats.kills %></p>
+    <p>Assists: <%= topStats.assists %></p>
+    <p>Damage Dealt: <%= topStats.damageDealt.toFixed(2) %></p>
+    <p>Headshot Kills: <%= topStats.headshotKills %></p>
+    <p>Wins: <%= topStats.wins %></p>
+<% } else { %>
+    <p>No data available or an error occurred.</p>
+<% } %>

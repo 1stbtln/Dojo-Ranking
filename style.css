@@ -75,3 +75,23 @@ ul{
 .div3Div2{
     margin-left: 80px;
 }
+
+
+
+@media (max-width: 1570px) {
+    .div3{
+        display: none;
+    }
+}
+@media (max-width: 1030px) {
+    button{
+        width: auto;
+        height: 40px;
+        background-color: rgba(255, 0, 0, 0);
+        border-style: none;
+        border-radius: 15px;
+        margin-left: 40px;
+        color: white;
+        border: 1px solid rgb(133, 3, 255);
+    }
+}
